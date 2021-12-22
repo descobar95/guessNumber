@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "randomNumber",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "guessNumber",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "prize",
+						"type": "uint256"
+					}
+				],
+				"name": "Number",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "guessNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "guess",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"guessNumber.sol": "GuessNumber"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"guessNumber.sol": {
+			"keccak256": "0xbf2b2606fc2c27dba49d248af326224f7a4840c4aade09116373b8419bbcef08",
+			"urls": [
+				"bzz-raw://f118aa0da0736fed22958fed260987f1ea21beb522092beab0b22d9e1209fa71",
+				"dweb:/ipfs/QmZYpipC7wPeoCox9fwAD8MkVXapxJwVg3fPW1VW4htqEX"
+			]
+		}
+	},
+	"version": 1
+}
